@@ -44,9 +44,40 @@ nav {
 
 section {
     text-align: center;
+    margin-top: 30px;
 }
 
 div {
     display: inline-block;
     width: 33%;
+}
+span {
+  font-size: 60px;
+}
+
+body section:last-child {
+
+    margin: 30px 50px 0px 50px;
+}
+/*Busca al atributo que tiene por alt "laboratoria" y aplica los cambios solo ahi*/
+img[alt="laboratoria"] {
+    width: 120px;
+}
+
+button {
+    background-color: #f9a91a;
+    padding: 10px;
+    border:0;
+    border-radius: 5px;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 600px;
+}
+
+.box-header ul li {
+    margin: 0px 15px;
+}
+
+span:hover, .box-header ul li:hover{
+   color:#f9a91a;
 }
