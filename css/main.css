@@ -1,0 +1,52 @@
+/* setear nuestros archivos */
+/*Es recomendable ponerlo en orden alfabetico */
+body {
+    box-sizing:border-box;
+    font-family:"Raleway",sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #303030;
+}
+
+/* Clases Reutilizables */
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+/* Clases Especificas*/
+.box-header {
+    display: inline-block;
+}
+
+.logo-header {
+    width: 200px;
+}
+
+li {
+    display: inline;
+    list-style: none;
+}
+/* Cambiando el color heredado de body*/
+li a {
+    text-decoration: none;
+    color: inherit;
+}
+header {
+    position: relative;
+}
+nav {
+    position: absolute;
+    right: 5%;
+    /* Para poder centrar el nav en medio del header*/
+    top:50%;
+    transform: translateY(-50%);
+}
+
+section {
+    text-align: center;
+}
+
+div {
+    display: inline-block;
+    width: 33%;
+}
